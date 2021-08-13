@@ -41,8 +41,51 @@
 
 <body>
   Hello Projects
+  <h2 id="section-heading">Highlight Reel</h2>
+  <!-- Carousel -->
+  <div id="carouselHighlightReel" class="carousel slide" data-bs-ride="carousel">
+    <div class="carousel-indicators">
+      <button type="button" data-bs-target="#carouselHighlightReel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+      <button type="button" data-bs-target="#carouselHighlightReel" data-bs-slide-to="1" aria-label="Slide 2"></button>
+      <button type="button" data-bs-target="#carouselHighlightReel" data-bs-slide-to="2" aria-label="Slide 3"></button>
+    </div>
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="img/nat1.jpg" class="d-block w-100" alt="...">
+        <div class="carousel-caption d-none d-md-block">
+          <h5>Twitter Recommendations</h5>
+          <p>Using Machine Learning to generate Twitter Reccomendations.</p>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img src="img/nat2.jpg" class="d-block w-100" alt="...">
+        <div class="carousel-caption d-none d-md-block">
+          <h5>Robot Builder Application</h5>
+          <p>VueJS application to build & buy robots.</p>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img src="img/nat3.jpg" class="d-block w-100" alt="...">
+        <div class="carousel-caption d-none d-md-block">
+          <h5>COVID Tracker</h5>
+          <p>Bootstrap web application to present COVID-19 API data.</p>
+        </div>
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselHighlightReel" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselHighlightReel" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+
+  <hr style="height:25px">
   
-  <div id="project-list" class="container">
+  <div id="projects-overview" class="container">
+    <h2 id="section-heading">Projects Overview Cards</h2>
     <ul>
       <li>Twitter Recommedations</li>
       <li>Robot Builder</li>
@@ -52,6 +95,9 @@
       <li>Country Guesser Quiz</li>
     </ul>
   </div>
+
+  <hr style="height:25px">
+  <!-- End Carousel -->
 
   <!-- Footer -->
   <div class="container">
