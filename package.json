@@ -1,0 +1,28 @@
+{
+  "name": "stephendunne97-github.io",
+  "version": "1.0.0",
+  "description": "Personal website built using React.js",
+  "main": "test.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/StephenDunne97/StephenDunne97-github.io.git"
+  },
+  "keywords": [
+    "React",
+    "Personal",
+    "Blog",
+    "Website",
+    "Engineering",
+    "Developer",
+    "Software"
+  ],
+  "author": "Stephen Dunne",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/StephenDunne97/StephenDunne97-github.io/issues"
+  },
+  "homepage": "https://github.com/StephenDunne97/StephenDunne97-github.io#readme"
+}
